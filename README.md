@@ -25,8 +25,9 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  ### Key Features <a name="key-features"></a>
- - Create tables in SQL.
- -  Insert and query data in SQL.
+ - Use database transactions.
+ - Modify and delete data in SQL.
+ - Prepare complex queries that answer analytical questions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -48,8 +49,9 @@ To get a local copy up and running, follow these steps.
 
 ## :telescope: Future Features <a name="future-features"></a>
 
- - Create tables in SQL.
- -  Insert and query data in SQL.
+ - Use database transactions.
+ - Modify and delete data in SQL.
+ - Prepare complex queries that answer analytical questions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
