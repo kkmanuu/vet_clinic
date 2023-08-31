@@ -25,9 +25,9 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  ### Key Features <a name="key-features"></a>
- - Use database transactions.
- - Modify and delete data in SQL.
- - Prepare complex queries that answer analytical questions
+ - Use primary key & foreign key mechanism for joining tables.
+ - Query multiple tables.
+ - Prepare complex queries that answer analytical questions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -36,9 +36,9 @@
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-- Install PostgreSQL in your local environment.
-- Ensure that the psql process is up and running.
-- Execute the SQL files to create and execute the database queries.
+- Use primary key & foreign key mechanism for joining tables.
+- Query multiple tables.
+- Prepare complex queries that answer analytical questions.
 
 ## :busts_in_silhouette: Authors <a name="authors"></a>
 :bust_in_silhouette: *Emmanuel Kipngeno*
