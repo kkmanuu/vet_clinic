@@ -33,24 +33,24 @@ WHERE name LIKE '%mon';
 
 UPDATE animals
 SET species_id = 1
-WHERE name NOT LIKE '%mon';
+WHERE species_id IS NULL;
 
 UPDATE animals
-SET owner_id =
-    (SELECT id FROM owners WHERE full_name = 'Sam Smith')
-    WHERE name IN ('Agumon');
+SET owner_id = 1
+WHERE name = 'Agumon';
 
 UPDATE animals
-SET owner_id =
-    (SELECT id FROM owners WHERE full_name = 'Jennifer Orwell')
-    WHERE name IN ('Gabumon', 'Pikachu');
+SET owner_id = 2
+WHERE name IN ('Gabumon', 'Pikachu');
 
 UPDATE animals
-SET owner_id =
-    (SELECT id FROM owners WHERE full_name = 'Bob')
-    WHERE name IN ('Devimon', 'Plantmon');
+SET owner_id = 3
+WHERE name IN ('Devimon', 'Plantmon');
 
 UPDATE animals
-SET owner_id =
-    (SELECT id FROM owners WHERE full_name = 'Dean Winchester')
-    WHERE name IN ('Angemon', 'Boarmon');
+SET owner_id = 4
+WHERE name IN ('Charmander', 'Squirtel', 'Blossom');
+
+UPDATE animals
+SET owner_id = 5
+WHERE name IN ('Angemon', 'Boarmon');
