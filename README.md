@@ -36,9 +36,9 @@
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-- Use primary key & foreign key mechanism for joining tables.
-- Query multiple tables.
-- Prepare complex queries that answer analytical questions.
+ - Understand the different types of relationships between tables.
+ - Prepare complex queries that answer analytical questions.
+ - Use primary key & foreign key mechanism for joining tables.
 
 ## :busts_in_silhouette: Authors <a name="authors"></a>
 :bust_in_silhouette: *Emmanuel Kipngeno*
@@ -49,9 +49,9 @@ To get a local copy up and running, follow these steps.
 
 ## :telescope: Future Features <a name="future-features"></a>
 
- - Use database transactions.
- - Modify and delete data in SQL.
- - Prepare complex queries that answer analytical questions
+ - Understand the different types of relationships between tables.
+ - Prepare complex queries that answer analytical questions.
+ - Use primary key & foreign key mechanism for joining tables.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
