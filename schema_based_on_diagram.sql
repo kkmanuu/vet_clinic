@@ -29,3 +29,21 @@ CREATE TABLE treatments (
     type VARCHAR(255),
     name VARCHAR(255)
 );
+
+CREATE TABLE invoice_items (
+    id serial PRIMARY KEY,
+    unit_price DECIMAL(10, 2),
+    quantity INT,
+    total_price DECIMAL(10, 2),
+    invoice_id integer,
+    treatment_id integer,
+    CONSTRAINT fk_invoice FOREIGN KEY (invoice_id) REFERENCES invoices (id) ON DELETE CASCADE,
+    CONSTRAINT fk_treatment FOREIGN KEY (treatment_id) REFERENCES treatments (id) ON DELETE CASCADE
+);
+
+CREATE TABLE medical_history_treatments (
+    medical_history_id integer,
+    treatment_id integer,
+    CONSTRAINT fk_medical_history FOREIGN KEY (medical_history_id) REFERENCES medical_histories (id) ON DELETE CASCADE,
+    CONSTRAINT fk_treatment FOREIGN KEY (treatment_id) REFERENCES treatments (id) ON DELETE CASCADE
+);
