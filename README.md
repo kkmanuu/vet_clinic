@@ -46,6 +46,12 @@ To get a local copy up and running, follow these steps.
 - Twitter: [@twitterhandle](https://twitter.com/kkmanuu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-kipngeno-879370242/)
 
+👤 **Ojwang Briton**
+
+- GitHub: [@Eccb7](https://github.com/Eccb7)
+- Twitter: [@briton_otieno4](https://twitter.com/briton_otieno4)
+- LinkedIn: [briton-otieno-ba6591244](https://linkedin.com/in/briton-otieno)
+
 
 ## :telescope: Future Features <a name="future-features"></a>
 
