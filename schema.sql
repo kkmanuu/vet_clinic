@@ -33,7 +33,6 @@ CREATE TABLE specializations( vets_id INT REFERENCES vets(id),species_id INT REF
 
 CREATE TABLE visits(vet_id INT REFERENCES vets(id),animal_id INT REFERENCES animals(id),date_of_visit date);
 
-
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
 CREATE INDEX visits_animal_id ON visits(animal_id);
